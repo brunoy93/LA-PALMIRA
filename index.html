@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Palmira | Dulces y Licores Artesanales - Monterrico, Jujuy</title>
+    <meta name="description" content="Dulces, licores, hojas de parra y hierbas deshidratadas artesanales de Monterrico, Jujuy. Emprendimiento familiar con más de 60 años de historia.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@600;700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- LOADER -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <h1>La Palmira</h1>
+            <div class="loader-line"></div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="container header-content">
+            <a href="#inicio" class="logo">
+                <h1>La Palmira</h1>
+                <span>Dulces y Licores Artesanales</span>
+            </a>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav" id="nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#productos">Productos</a>
+                <a href="#galeria">Galería</a>
+                <a href="#testimonios">Opiniones</a>
+                <a href="#faq">Preguntas</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-tagline fade-in">Monterrico · Jujuy · Argentina</span>
+            <h2 class="fade-in">Sabores de la finca,<br>hechos a mano</h2>
+            <p class="fade-in">Dulces, licores, hojas de parra y hierbas deshidratadas.<br>Más de 60 años de tradición familiar.</p>
+            <div class="hero-buttons fade-in">
+                <a href="https://wa.me/5493884728919?text=Hola%20La%20Palmira,%20quiero%20hacer%20una%20consulta" 
+                   class="btn btn-primary" target="_blank">
+                    Consultar por WhatsApp
+                </a>
+                <a href="#productos" class="btn btn-outline">Ver productos</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- FRANJA DE DATOS -->
+    <section class="stats">
+        <div class="container stats-grid">
+            <div class="stat-item fade-in">
+                <h3 class="stat-number" data-target="60">0</h3>
+                <p>Años de historia</p>
+            </div>
+            <div class="stat-item fade-in">
+                <h3 class="stat-number" data-target="100">0</h3>
+                <p>% Artesanal</p>
+            </div>
+            <div class="stat-item fade-in">
+                <h3 class="stat-number" data-target="4">0</h3>
+                <p>Líneas de productos</p>
+            </div>
+            <div class="stat-item fade-in">
+                <h3 class="stat-number" data-target="1">0</h3>
+                <p>Familia, una tradición</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="container nosotros-grid">
+            <div class="nosotros-texto fade-in">
+                <span class="section-tag">Nuestra Historia</span>
+                <h2 class="section-title-left">De la finca a tu mesa</h2>
+                <p>La Palmira es un emprendimiento familiar artesanal. La finca en la que se desarrolla cuenta con más de <strong>60 años de historia</strong>, dedicada a la producción de tabaco, hortalizas y frutales.</p>
+                <p>Con el paso de los años se incorporó, como alternativa, la elaboración artesanal de productos a partir de los frutos obtenidos. <strong>Así nació La Palmira.</strong></p>
+                <p class="firma">— Familia La Palmira</p>
+            </div>
+            <div class="nosotros-imagen fade-in">
+                <img src="img/galeria-4.jpg" alt="La finca La Palmira" onerror="this.style.display='none'">
+                <div class="nosotros-marco"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section id="productos" class="productos">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Lo que hacemos</span>
+                <h2 class="section-title">Nuestros Productos</h2>
+                <p class="section-subtitle">Todos nuestros productos se consultan y coordinan por WhatsApp</p>
+            </div>
+
+            <div class="productos-grid">
+
+                <div class="categoria-card fade-in">
+                    <div class="categoria-icono">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2C8 2 5 5 5 9v10c0 1.7 1.3 3 3 3h8c1.7 0 3-1.3 3-3V9c0-4-3-7-7-7z"/>
+                            <path d="M9 9h6M9 13h6M9 17h4"/>
+                        </svg>
+                    </div>
+                    <h3>Dulces</h3>
+                    <p>Mermeladas, confituras y jaleas elaboradas con frutas de la finca y la zona.</p>
+                    <a href="https://wa.me/5493884728919?text=Hola%20La%20Palmira,%20quiero%20consultar%20por%20los%20dulces" 
+                       class="btn-consultar" target="_blank">
+                        Consultar <span>→</span>
+                    </a>
+                </div>
+
+                <div class="categoria-card fade-in">
+                    <div class="categoria-icono">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M8 2h8v3l-2 3v11a2 2 0 01-2 2h-2a2 2 0 01-2-2V8L6 5V2h2z"/>
+                            <path d="M8 14h8"/>
+                        </svg>
+                    </div>
+                    <h3>Licores</h3>
+                    <p>Licores frutales y cremas artesanales: limón, banana, café y dulce de leche.</p>
+                    <a href="https://wa.me/5493884728919?text=Hola%20La%20Palmira,%20quiero%20consultar%20por%20los%20licores" 
+                       class="btn-consultar" target="_blank">
+                        Consultar <span>→</span>
+                    </a>
+                </div>
+
+                <div class="categoria-card fade-in">
+                    <div class="categoria-icono">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22c-5-3-7-8-5-14 3 1 5 4 5 8 0-4 2-7 5-8 2 6 0 11-5 14z"/>
+                            <path d="M12 22V12"/>
+                        </svg>
+                    </div>
+                    <h3>Hojas de Parra</h3>
+                    <p>Hojas de parra seleccionadas y preparadas artesanalmente.</p>
+                    <a href="https://wa.me/5493884728919?text=Hola%20La%20Palmira,%20quiero%20consultar%20por%20las%20hojas%20de%20parra" 
+                       class="btn-consultar" target="_blank">
+                        Consultar <span>→</span>
+                    </a>
+                </div>
+
+                <div class="categoria-card fade-in">
+                    <div class="categoria-icono">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 3v18M8 7c0 2 2 3 4 3s4-1 4-3M6 11c0 2 3 3 6 3s6-1 6-3M8 15c0 2 2 3 4 3s4-1 4-3"/>
+                        </svg>
+                    </div>
+                    <h3>Hierbas Deshidratadas</h3>
+                    <p>Hierbas seleccionadas y deshidratadas para disfrutar tus mates.</p>
+                    <a href="https://wa.me/5493884728919?text=Hola%20La%20Palmira,%20quiero%20consultar%20por%20las%20hierbas%20deshidratadas" 
+                       class="btn-consultar" target="_blank">
+                        Consultar <span>→</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Nuestro trabajo</span>
+                <h2 class="section-title">Galería</h2>
+                <p class="section-subtitle">Un vistazo a la finca y nuestros productos</p>
+            </div>
+            <div class="galeria-grid">
+
+                <div class="galeria-item fade-in">
+                    <img src="img/hero.jpg" alt="La finca">
+                    <div class="galeria-caption">
+                        <h3>La finca</h3>
+                        <p>Nuestro paisaje</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item fade-in">
+                    <img src="img/galeria-1.jpg" alt="Hierbas deshidratadas">
+                    <div class="galeria-caption">
+                        <h3>Hierbas deshidratadas</h3>
+                        <p>Para tu mate</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item fade-in">
+                    <img src="img/galeria-2.jpg" alt="Licores artesanales">
+                    <div class="galeria-caption">
+                        <h3>Licores artesanales</h3>
+                        <p>Frutales y cremas</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item fade-in">
+                    <img src="img/galeria-3.jpg" alt="Dulces y conservas">
+                    <div class="galeria-caption">
+                        <h3>Dulces y conservas</h3>
+                        <p>De la finca a tu mesa</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item fade-in">
+                    <img src="img/galeria-4.jpg" alt="En la finca">
+                    <div class="galeria-caption">
+                        <h3>En la finca</h3>
+                        <p>Trabajo artesanal</p>
+                    </div>
+                </div>
+
+                <div class="galeria-item fade-in galeria-ancho">
+                    <img src="img/galeria-5.jpg" alt="Frutas de la zona">
+                    <div class="galeria-caption">
+                        <h3>Frutas de la zona</h3>
+                        <p>Materia prima</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section id="testimonios" class="testimonios">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Lo que dicen</span>
+                <h2 class="section-title">Opiniones</h2>
+            </div>
+            <div class="testimonios-grid">
+                <div class="testimonio-card fade-in">
+                    <div class="estrellas">★★★★★</div>
+                    <p>"Los dulces de cayote son espectaculares. Se nota lo artesanal y el cariño en cada frasco."</p>
+                    <span class="testimonio-autor">— Cliente de Jujuy</span>
+                </div>
+                <div class="testimonio-card fade-in">
+                    <div class="estrellas">★★★★★</div>
+                    <p>"La crema de limón es única. La compré para regalar y terminé pidiendo más para casa."</p>
+                    <span class="testimonio-autor">— Cliente de Salta</span>
+                </div>
+                <div class="testimonio-card fade-in">
+                    <div class="estrellas">★★★★★</div>
+                    <p>"Productos con sabor a tradición. Las hierbas para el mate son mi debilidad."</p>
+                    <span class="testimonio-autor">— Cliente de Monterrico</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Consultas</span>
+                <h2 class="section-title">Preguntas Frecuentes</h2>
+            </div>
+            <div class="faq-lista">
+                <details class="faq-item fade-in">
+                    <summary>¿Hacen envíos?</summary>
+                    <p>Coordinamos envíos en la zona de Monterrico y alrededores. Consultanos por WhatsApp para coordinar la entrega.</p>
+                </details>
+                <details class="faq-item fade-in">
+                    <summary>¿Los productos son artesanales?</summary>
+                    <p>Sí, el 100% de nuestros productos son elaborados de forma artesanal con frutas de la finca y la zona.</p>
+                </details>
+                <details class="faq-item fade-in">
+                    <summary>¿Puedo hacer un pedido grande para un evento?</summary>
+                    <p>¡Sí! Escribinos por WhatsApp con anticipación y coordinamos la producción para tu evento o regalo corporativo.</p>
+                </details>
+                <details class="faq-item fade-in">
+                    <summary>¿Qué métodos de pago aceptan?</summary>
+                    <p>Consultá por WhatsApp los métodos disponibles. Coordinamos el pago al momento del pedido.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="container contacto-grid">
+            <div class="contacto-info fade-in">
+                <span class="section-tag light">Contacto</span>
+                <h2 class="section-title-left light">Hablemos</h2>
+                <p>Coordinamos envíos en la zona. Escribinos por WhatsApp o completá el formulario.</p>
+                
+                <ul class="contacto-datos">
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.37 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.33 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        <span>+54 9 388 472-8919</span>
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <span>Monterrico, Jujuy, Argentina</span>
+                    </li>
+                </ul>
+
+                <a href="https://wa.me/5493884728919?text=Hola%20La%20Palmira,%20quiero%20hacer%20una%20consulta" 
+                   class="btn btn-primary" target="_blank">
+                    Escribir por WhatsApp
+                </a>
+            </div>
+
+            <form class="contacto-form fade-in" id="contactForm">
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label>Email o teléfono</label>
+                    <input type="text" id="contacto-input" required>
+                </div>
+                <div class="form-group">
+                    <label>Mensaje</label>
+                    <textarea id="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Enviar por WhatsApp</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- MAPA -->
+    <section class="mapa">
+        <iframe 
+            src="https://www.google.com/maps?q=Monterrico,Jujuy,Argentina&output=embed" 
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3>La Palmira</h3>
+                <p>Dulces y licores artesanales de Monterrico, Jujuy. Tradición familiar de más de 60 años.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Secciones</h4>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#productos">Productos</a>
+                <a href="#galeria">Galería</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p>+54 9 388 472-8919</p>
+                <p>Monterrico, Jujuy</p>
+                <a href="https://wa.me/5493884728919" target="_blank">WhatsApp</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 La Palmira — Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- WHATSAPP FLOTANTE -->
+    <a href="https://wa.me/5493884728919?text=Hola%20La%20Palmira,%20quiero%20hacer%20una%20consulta" 
+       class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+    <!-- BOTÓN VOLVER ARRIBA -->
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
